@@ -13,7 +13,7 @@ public class Etudiant {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@Column(name = "name", length = 50)
+	@Column(name = "username", length = 50)
 	@NotBlank
 	private String studentName;
 	@Column(columnDefinition = "Integer default 18", nullable = false)
